@@ -38,13 +38,13 @@ interests:
 education:
   - degree: Exchange Student (Applied Mathematics)
     institution: University of California, Los Angeles
-    start: 2026-09-01
-    end: 2026-12-31
+    start: 2026-09-21
+    end: 2026-12-15
     summary: |
       Planned coursework includes Probability Theory, Optimization, and Neural Network Algorithms.
   - degree: Bachelor of Science (Mathematics and Applied Mathematics)
     institution: Fudan University
-    start: 2024-08-01
+    start: 2024-08-30
     end: 2028-06-30
     summary: |
       Academic Ranking: GPA 3.87/4.00, Top 20%. Core coursework includes Mathematical Analysis, Higher Algebra, and Ordinary Differential Equations. Awarded the First-class Named Scholarship at the school level.
@@ -52,7 +52,7 @@ education:
 experience:
   - role: Quantitative Investment Intern
     org: Soochow Securities
-    start: 2026-04-01
+    start: 2026-04-30
     end: 2026-07-31
     summary: |
       Addressing the limitations of traditional multi-factor portfolios, introduced the maximum entropy principle to construct a multi-factor stock selection portfolio model with improved generalization. Independently reviewed and optimized the original model framework, generating underlying logic documentation.
@@ -64,7 +64,7 @@ experience:
   - role: Algorithm Lead (MCM Project)
     org: Mathematical Contest in Modeling (MCM)
     start: 2026-01-01
-    end: 2026-02-28
+    end: 2026-02-10
     summary: |
       Led the smartphone power consumption prediction model. Constructed a continuous-time dynamic evolution framework for multi-source power loads based on the Equivalent Circuit Model (ECM), and conducted uncertainty quantification assessments.
 
@@ -97,9 +97,9 @@ languages:
 awards:
   - title: Honorable Mention
     awarder: Mathematical Contest in Modeling (COMAP)
-    date: "2026-04-01"
+    date: "2026-05-08"
     summary: Constructed a system of ordinary differential equations and an electro-thermal coupled feedback loop for smartphone power consumption.
   - title: Second Prize (Zhejiang Province)
     awarder: Chinese Mathematical Olympiad (CMO)
-    date: "2023-09-01"
+    date: "2023-10-20"
     summary: Demonstrated a solid foundation in competitive mathematics.
