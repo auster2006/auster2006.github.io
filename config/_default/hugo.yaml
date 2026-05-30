@@ -4,11 +4,9 @@
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
 # Website name (set in params.yaml under hugoblox.branding.name)
-title: 'Auster Personal Website'
-# Website description (set in params.yaml under hugoblox.branding.description)
-description: 'Auster personal website'
+title: ''
 # Website URL
-baseURL: 'https://auster.github.io/'
+baseURL: ''https://austerzh0508-code.github.io/''
 
 ############################
 ## LANGUAGE
