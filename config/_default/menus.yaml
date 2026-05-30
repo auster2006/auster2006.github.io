@@ -1,27 +1,25 @@
-# Navigation Links
-#   To link a homepage widget, specify the URL as a hash `#` followed by the filename of the
-  #     desired widget in your `content/home/` folder.
-  #   The weight parameter defines the order that the links will appear in.
-
 main:
-  - name: Bio
+  - name: Home
     url: /
     weight: 10
-  - name: Papers
-    url: /#papers
-    weight: 11
-  - name: Talks
-    url: /#talks
-    weight: 12
-  - name: News
-    url: /#news
-    weight: 13
-  - name: Experience
-    url: experience/
+
+  - name: Internship
+    url: /#internship
     weight: 20
+
   - name: Projects
-    url: projects/
+    url: /#projects
     weight: 30
-  - name: Courses
-    url: courses/
+
+  - name: Leadership
+    url: /#campus
     weight: 40
+
+  - name: Skills
+    url: /#skills
+    weight: 50
+
+  # 保留极其重要的简历下载快捷入口，供导师或HR一键下载
+  - name: CV
+    url: /uploads/CV.pdf
+    weight: 60

@@ -1,0 +1,169 @@
+/* ==========================================================================
+   1. 交互升级：全屏按块吸附 + 内部自然滚动 (PPT幻灯片模式)
+   ========================================================================== */
+html {
+    scroll-snap-type: y mandatory; 
+    scroll-behavior: smooth;
+}
+
+section {
+    scroll-snap-align: start;
+    scroll-snap-stop: always;     
+    height: 100vh !important;      
+    overflow-y: auto !important;   
+    padding-top: 12vh !important; 
+    padding-bottom: 12vh !important;
+}
+
+section::-webkit-scrollbar {
+    width: 6px;
+}
+section::-webkit-scrollbar-track {
+    background: transparent;
+}
+section::-webkit-scrollbar-thumb {
+    background-color: rgba(15, 23, 42, 0.15);
+    border-radius: 10px;
+}
+.dark section::-webkit-scrollbar-thumb {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+/* ==========================================================================
+   2. 美学背景：量化科技风视差网格
+   ========================================================================== */
+body {
+    background-color: #f4f7fc !important;
+    background-image: 
+        linear-gradient(rgba(15, 23, 42, 0.04) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(15, 23, 42, 0.04) 1px, transparent 1px) !important;
+    background-size: 40px 40px !important;
+    background-position: center center !important;
+    background-attachment: fixed !important; 
+}
+
+.dark body {
+    background-color: #0b0f19 !important;
+    background-image: 
+        linear-gradient(rgba(255, 255, 255, 0.03) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(255, 255, 255, 0.03) 1px, transparent 1px) !important;
+}
+
+section, .landing-section, div[class*="bg-gradient-"], .bg-white, .dark .bg-slate-900 {
+    background: transparent !important;
+    background-image: none !important;
+}
+
+/* ==========================================================================
+   3. 终极宽度穿透：让文字在宽屏舒展
+   ========================================================================== */
+.container, .max-w-prose, .max-w-xl, .prose {
+    max-width: 1000px !important;
+    width: 100% !important;
+}
+
+/* ==========================================================================
+   4. 学术时间轴组件 (Academic Timeline)
+   ========================================================================== */
+.academic-timeline {
+    position: relative;
+    margin: 2rem 0;
+}
+
+.academic-timeline::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 140px; 
+    width: 2px;
+    background: rgba(15, 23, 42, 0.1);
+}
+.dark .academic-timeline::before {
+    background: rgba(255, 255, 255, 0.15);
+}
+
+.timeline-item {
+    display: flex;
+    position: relative;
+    margin-bottom: 3.5rem;
+}
+.timeline-item:last-child {
+    margin-bottom: 0;
+}
+
+.timeline-item::before {
+    content: '';
+    position: absolute;
+    left: 136px; 
+    top: 6px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #3b82f6;
+    border: 2px solid #fff;
+    box-shadow: 0 0 0 4px rgba(59, 130, 246, 0.15);
+    z-index: 2;
+}
+.dark .timeline-item::before {
+    border-color: #0b0f19;
+}
+
+.timeline-date {
+    width: 120px; 
+    padding-right: 30px;
+    text-align: right;
+    font-weight: 600;
+    font-size: 0.95rem;
+    color: #475569;
+    line-height: 1.4;
+    padding-top: 2px;
+    flex-shrink: 0;
+}
+.dark .timeline-date {
+    color: #94a3b8;
+}
+
+.timeline-content {
+    flex-grow: 1;
+    padding-left: 45px;
+}
+
+.timeline-content h4 {
+    margin-top: 0 !important;
+    margin-bottom: 0.8rem !important;
+    font-size: 1.15rem;
+    font-weight: 700;
+    color: #0f172a;
+}
+.dark .timeline-content h4 {
+    color: #f1f5f9;
+}
+
+.timeline-content ul {
+    list-style-type: disc;
+    padding-left: 1.2rem;
+    margin: 0;
+}
+
+.timeline-content li {
+    margin-bottom: 0.6rem;
+    line-height: 1.6;
+    color: #334155;
+}
+.dark .timeline-content li {
+    color: #cbd5e1;
+}
+
+@media (max-width: 768px) {
+    .academic-timeline::before { left: 16px; }
+    .timeline-item { flex-direction: column; }
+    .timeline-item::before { left: 12px; }
+    .timeline-date {
+        width: 100%;
+        text-align: left;
+        padding-left: 40px;
+        padding-bottom: 15px;
+    }
+    .timeline-content { padding-left: 40px; }
+}
