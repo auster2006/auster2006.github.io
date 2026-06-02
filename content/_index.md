@@ -6,12 +6,22 @@ type: landing
 
 sections:
   # ==========================================
-  # Block 1. 个人简介
+  # Block 1. 个人简介 (Hardcore Biography)
   # ==========================================
   - block: resume-biography-3
     content:
       username: me
-      text: ''
+      text: |
+        As an undergraduate student at the School of Mathematical Sciences, Fudan University, my academic foundation is built upon rigorous mathematical training, including Ordinary Differential Equations, Point-Set Topology, and Real/Complex Analysis. 
+
+        My primary research ambition lies in **Neural Networks and Optimization Algorithms**, heavily grounded in Probability Theory. I am passionate about bridging theoretical mathematics with advanced computational models to solve critical bottlenecks in high-dimensional and complex systems. 
+
+        **🔬 Current Research**
+        *   **Large-Scale Spatiotemporal Transcriptomic Dynamics Based on Graph-Regularized Unbalanced Flow Matching**: Currently in the research phase, focusing on algorithm optimization, mathematical derivation, and modeling continuous cellular dynamics.
+
+        **💻 Technical Stack**
+        *   Proficient in **Python** (Pandas, Matplotlib, Scikit-learn) for scientific computing, statistical analysis, and machine learning.
+        *   Experienced in **LaTeX** for professional academic typesetting and algorithm documentation.
       button:
         text: Download CV
         url: /uploads/CV.pdf
@@ -58,6 +68,7 @@ sections:
           <div class="timeline-item">
             <div class="timeline-date">Mar 2026<br>│<br>May 2026</div>
             <div class="timeline-content">
+              <!-- 🤖 这里去掉了 a 标签，恢复为纯文本标题 -->
               <h4>Research on the Employment Effects of Industrial Robots (Based on DTW-TWFE)</h4>
               <ul>
                 <li><strong>Dynamic Heterogeneous Clustering:</strong> Introduced the Dynamic Time Warping (DTW) algorithm to measure the non-linear distance of industry automation penetration timelines. Combined with Ward hierarchical clustering and silhouette coefficients.</li>
@@ -70,7 +81,8 @@ sections:
           <div class="timeline-item">
             <div class="timeline-date">Jan 2026<br>│<br>Feb 2026</div>
             <div class="timeline-content">
-              <h4>Smartphone Power Consumption Prediction Model (MCM)</h4>
+              <!-- 🔋 电池项目保留 PDF 跳转链接 -->
+              <h4><a href="/uploads/battery.pdf" target="_blank" style="text-decoration: underline; color: inherit;">Smartphone Power Consumption Prediction Model (MCM)</a></h4>
               <ul>
                 <li><strong>Mechanism Derivation & Modeling:</strong> Constructed an ECM-based continuous-time dynamic evolution framework. Established ODEs to quantify independent hardware power consumption and introduced an electro-thermal coupled feedback loop.</li>
                 <li><strong>Parameter Estimation & Simulation:</strong> Applied OLS for processor power features, the L-M algorithm for screen brightness non-linear power-law parameters, and built a discrete-time iteration framework in Python.</li>
@@ -81,7 +93,8 @@ sections:
           <div class="timeline-item">
             <div class="timeline-date">Jan 2025<br>│<br>Feb 2025</div>
             <div class="timeline-content">
-              <h4>2028 Olympic Medal Prediction Model (MCM)</h4>
+              <!-- 🏅 奥运项目保留 PDF 跳转链接 -->
+              <h4><a href="/uploads/olympic.pdf" target="_blank" style="text-decoration: underline; color: inherit;">2028 Olympic Medal Prediction Model (MCM)</a></h4>
               <ul>
                 <li><strong>High-Dimensional Feature Extraction:</strong> Designed a dual-algorithm pipeline: utilized linear regression to predict future participation scales, Random Forests to capture non-linear relationships, and built a Deep Neural Network in PyTorch.</li>
               </ul>
@@ -99,6 +112,10 @@ sections:
     content:
       title: '🏫 Leadership'
       text: |
+        <div style="margin-bottom: 25px; border-radius: 8px; overflow: hidden; box-shadow: 0 4px 10px rgba(0,0,0,0.1);">
+          <img src="/img/leader.jpg" alt="Leadership Highlights" style="width: 100%; max-height: 350px; object-fit: cover; display: block;">
+        </div>
+
         <div class="academic-timeline">
           <div class="timeline-item">
             <div class="timeline-date">Sep 2025<br>│<br>Present</div>
