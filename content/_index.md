@@ -114,8 +114,8 @@ sections:
       text: |
         <div style="position: relative; overflow: hidden; border-radius: 12px; padding: 25px; margin-top: 10px; box-shadow: 0 4px 15px rgba(0,0,0,0.03); background: #fff;">
           <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: 0; pointer-events: none;">
-            <img src="/img/leader.jpg" alt="Leadership Background" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.25; filter: grayscale(80%); display: block; margin: 0;">
-            <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: linear-gradient(135deg, rgba(255,255,255,0.8) 0%, rgba(255,255,255,0.4) 100%);"></div>
+            <img src="/img/leader.jpg" alt="Leadership Background" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.4; filter: grayscale(80%); display: block; margin: 0;">
+            <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: linear-gradient(135deg, rgba(255,255,255,0.6) 0%, rgba(255,255,255,0.4) 100%);"></div>
           </div>
           <div style="position: relative; z-index: 1;">
             <div class="academic-timeline">
