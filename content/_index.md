@@ -104,7 +104,7 @@ sections:
     design:
       columns: '1'
 
-  # ==========================================
+# ==========================================
   # Block 4. 校园经历 (带时间轴)
   # ==========================================
   - block: markdown
@@ -113,15 +113,12 @@ sections:
       title: '🏫 Leadership'
       text: |
         <div style="position: relative; overflow: hidden; border-radius: 12px; padding: 25px; margin-top: 10px; box-shadow: 0 4px 15px rgba(0,0,0,0.03); background: #fff;">
-          
           <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: 0; pointer-events: none;">
             <img src="/img/leader.jpg" alt="Leadership Background" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.25; filter: grayscale(80%); display: block; margin: 0;">
             <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: linear-gradient(135deg, rgba(255,255,255,0.95) 0%, rgba(255,255,255,0.4) 100%);"></div>
           </div>
-
           <div style="position: relative; z-index: 1;">
             <div class="academic-timeline">
-              
               <div class="timeline-item">
                 <div class="timeline-date">Sep 2025<br>│<br>Present</div>
                 <div class="timeline-content">
@@ -132,7 +129,6 @@ sections:
                   </ul>
                 </div>
               </div>
-
               <div class="timeline-item">
                 <div class="timeline-date">Jun 2025<br>│<br>Present</div>
                 <div class="timeline-content">
@@ -143,7 +139,6 @@ sections:
                   </ul>
                 </div>
               </div>
-
               <div class="timeline-item">
                 <div class="timeline-date">Sep 2024<br>│<br>Present</div>
                 <div class="timeline-content">
@@ -153,7 +148,6 @@ sections:
                   </ul>
                 </div>
               </div>
-
               <div class="timeline-item">
                 <div class="timeline-date">Sep 2024<br>│<br>Jun 2025</div>
                 <div class="timeline-content">
@@ -163,11 +157,10 @@ sections:
                   </ul>
                 </div>
               </div>
-
             </div>
           </div>
         </div>
-        design:
+    design:
       columns: '1'
 
   # ==========================================
