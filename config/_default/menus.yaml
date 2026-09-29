@@ -4,7 +4,7 @@ main:
     weight: 10
 
   - name: Internship
-    url: /#internships
+    url: /#internship
     weight: 20
 
   - name: Projects
@@ -21,5 +21,8 @@ main:
 
   # 保留极其重要的简历下载快捷入口，供导师或HR一键下载
   - name: CV
-    url: ../static/uploads/CV.pdf
+    url: /uploads/zhan-dai-cv.pdf
     weight: 60
+  - name: Awards
+    url: /#awards
+    weight: 55
