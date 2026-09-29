@@ -13,7 +13,7 @@ status:
   icon: "👨‍🎓"
 role: Undergraduate Student (Mathematics and Applied Mathematics)
 bio: |
-  I am an undergraduate student at the School of Mathematical Sciences, Fudan University, ranking in the top 20% of my major. My research interests focus on quantitative investment and mathematical modeling. I am dedicated to solving real-world problems in complex systems through data-driven approaches and algorithmic derivations.
+  I am an undergraduate student at the School of Mathematical Sciences, Fudan University, ranking in the top 15% of my major. My research interests focus on quantitative investment, mathematical modeling, neural networks, optimization, and power-system algorithms. I am dedicated to solving real-world problems in complex systems through data-driven approaches and algorithmic derivations.
 
 affiliations:
   - name: Fudan University
@@ -24,7 +24,7 @@ links:
     url: mailto:daizhan0508@163.com
     label: E-mail Me
   - icon: hero/document-arrow-down
-    url: /uploads/CV.pdf
+    url: /uploads/zhan-dai-cv.pdf
     label: Download CV
   - icon: brands/github
     url: https://github.com/austerzh0508-code/
@@ -33,7 +33,8 @@ interests:
   - Quantitative Investment & Multi-factor Models
   - Mathematical Modeling & Ordinary Differential Equations
   - Deep Learning & Neural Network Algorithms
-  - Guitar, Singing & Sprinting
+  - Power Systems & Distributed Energy Resources
+  - Guitar, Singing, Sprinting & Latin Dance
 
 education:
   - degree: Exchange Student (Applied Mathematics)
@@ -41,26 +42,38 @@ education:
     start: 2026-09-21
     end: 2026-12-15
     summary: |
-      Planned coursework includes Probability Theory, Optimization, and Neural Network Algorithms.
+      Coursework: Probability Theory (graduate), Equations of Mathematical Physics (graduate), and Optimization. Exchange period: September–December 2026.
   - degree: Bachelor of Science (Mathematics and Applied Mathematics)
     institution: Fudan University
     start: 2024-08-30
     end: 2028-06-30
     summary: |
-      Academic Ranking: GPA 3.87/4.00, Top 20%. Core coursework includes Mathematical Analysis, Higher Algebra, and Ordinary Differential Equations. Awarded the First-class Named Scholarship at the school level.
+      Academic Ranking: GPA 3.88/4.00, Top 15%. Core coursework includes Mathematical Analysis, Higher Algebra, Ordinary Differential Equations, Programming, and Deep Learning. Awarded the First-class Named Scholarship at the school level.
 
 experience:
+  - role: ETF Mathematics Team Intern
+    org: ByteDance
+    start: 2026-07-01
+    end: 2026-09-30
+    summary: |
+      Reviewed Olympiad problems and model-generated solutions for proof completeness and correct derivations. Standardized mathematical notation and annotation outputs, collaborated through Feishu, and applied multidimensional evaluation criteria to provide alignment feedback.
   - role: Quantitative Investment Intern
     org: Soochow Securities
     start: 2026-04-30
     end: 2026-07-31
     summary: |
       Addressing the limitations of traditional multi-factor portfolios, introduced the maximum entropy principle to construct a multi-factor stock selection portfolio model with improved generalization. Independently reviewed and optimized the original model framework, generating underlying logic documentation.
-  - role: Presidium Member / Head of Liaison Department
+  - role: Presidium Member
     org: Student Union, School of Mathematical Sciences, Fudan University
-    start: 2025-05-01
+    start: 2026-05-01
     summary: |
       Coordinated Student Union activities and served as a core member of the 13th Siyuan Project.
+  - role: Head of Liaison Department
+    org: Student Union, School of Mathematical Sciences, Fudan University
+    start: 2025-05-01
+    end: 2026-05-31
+    summary: |
+      Led external outreach and sponsorship negotiations supporting over 10 school events, and coordinated cross-department activities.
   - role: Algorithm Lead (MCM Project)
     org: Mathematical Contest in Modeling (MCM)
     start: 2026-01-01
@@ -74,6 +87,8 @@ skills:
       - label: Python (Algorithm Implementation & Data Analysis)
         level: 5
       - label: VSCode + LaTeX Typesetting
+        level: 5
+      - label: Microsoft Office
         level: 5
       - label: MATLAB
         level: 4
@@ -100,6 +115,18 @@ awards:
     date: "2026-05-08"
     summary: Constructed a system of ordinary differential equations and an electro-thermal coupled feedback loop for smartphone power consumption.
   - title: Second Prize (Zhejiang Province)
-    awarder: Chinese Mathematical Olympiad (CMO)
+    awarder: National High School Mathematics League
     date: "2023-10-20"
     summary: Demonstrated a solid foundation in competitive mathematics.
+  - title: Second Prize (Shanghai)
+    awarder: Statistical Modeling Competition
+    summary: Listed in the latest CV; award date not specified.
+  - title: First Prize (Preliminary Round)
+    awarder: National High School Mathematics League
+    summary: Listed in the latest CV; award date not specified.
+  - title: First-class Named Scholarship
+    awarder: School of Mathematical Sciences, Fudan University
+  - title: Outstanding Communist Youth League Member
+    awarder: Fudan University
+  - title: Outstanding Student Cadre
+    awarder: Fudan University

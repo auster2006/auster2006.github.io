@@ -2,21 +2,14 @@
 title: 'Projects'
 date: 2024-05-19
 type: landing
-
-# Page sections
 sections:
-  - block: collection
+  - block: markdown
     content:
-      title: Selected Projects
-      text: I enjoy making things. Here are a selection of projects that I have worked on over the years.
-      filters:
-        folders:
-          - projects
+      title: Research & Projects
+      text: |
+        Explore my [research and project timeline](/#projects), including DER power-grid hosting capacity, industrial robot employment effects, smartphone power consumption modeling, and Olympic medal prediction.
+
+        Project reports: [Smartphone power consumption (PDF)](/uploads/battery.pdf) · [Olympic medal prediction (PDF)](/uploads/olympic.pdf).
     design:
-      view: article-grid
-      fill_image: false
-      columns: 3
-      show_date: false
-      show_read_time: false
-      show_read_more: false
+      columns: '1'
 ---
